@@ -1,0 +1,94 @@
+/* Style général */
+body {
+  background-color: #0e0e2c;
+  color: #eaeaea;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+#Ophiel-rp {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(20, 20, 50, 0.8);
+  border: 2px solid #222;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #444;
+}
+
+.header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #d4b4ff;
+}
+
+.header h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-style: italic;
+  color: #c2a9f0;
+}
+
+/* Avatars */
+.avatars {
+  margin-top: 10px;
+}
+
+.avatars a img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid #c2a9f0;
+  margin: 0 5px;
+  transition: transform 0.3s ease;
+}
+
+.avatars a:hover img {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+/* Conteneur principal */
+.contain {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+
+/* Illustration décorative */
+.illustration img {
+  height: 100%;
+  max-height: 400px;
+  position: absolute;
+  left: -60px;
+  top: 0;
+}
+
+/* Texte RP */
+.text-rp {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  margin-left: 80px; /* pour laisser de la place à l'image à gauche */
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.8em;
+  color: #aaa;
+}
